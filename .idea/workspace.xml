@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c5107f2-faaa-4ee9-a176-8153e76ff6cf" name="Default" comment="" />
+    <list default="true" id="4c5107f2-faaa-4ee9-a176-8153e76ff6cf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/INote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/FactoryMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/ICourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/simplefactory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/simplefactory/SimpleFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/IVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/IVideo.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,7 +32,49 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AbstractFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/AbstractFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICourseFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/ICourseFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaCourseFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/JavaCourseFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactoryMethodTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/FactoryMethodTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,10 +83,31 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/ICourse.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/IVideo.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/JavaCourse.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/simplefactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/simplefactory/SimpleFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/factorymethod/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/factorymethod/FactoryMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/factorymethod/ICourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaNote.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/INote.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonNote.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonVideo.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaVideo.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/AbstractFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -50,11 +134,14 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-103" />
-    <option name="y" value="167" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-105" />
+    <option name="y" value="14" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -78,7 +165,21 @@
               <item name="pattern-factory-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern-factory-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaowy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-factory-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-factory-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaowy" type="462c0819:PsiDirectoryNode" />
               <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-factory-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-factory-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaowy" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -94,7 +195,15 @@
     <property name="last_opened_file_path" value="G:/HeavenChart" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\练习代码\pattern-factory-learn\src\com\zhaowy\abstractfactory" />
+      <recent name="G:\练习代码\pattern-factory-learn\src\com\zhaowy\factorymethod" />
+      <recent name="G:\练习代码\pattern-factory-learn\src\com\zhaowy\simplefactory" />
+      <recent name="G:\练习代码\pattern-factory-learn\src\com\zhaowy" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,15 +270,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552212255693</updated>
-      <workItem from="1552212258940" duration="607000" />
+      <workItem from="1552212258940" duration="5486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="607000" />
+    <option name="totallyTimeSpent" value="5486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -181,7 +290,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -208,10 +317,152 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/ICourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/IVideo.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/JavaCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/INote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/simplefactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/simplefactory/SimpleFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/ICourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/FactoryMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
