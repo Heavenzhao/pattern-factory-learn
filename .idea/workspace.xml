@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c5107f2-faaa-4ee9-a176-8153e76ff6cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/CourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/INote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/FactoryMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/ICourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/simplefactory/CourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/simplefactory/SimpleFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/class-diagram/工厂方法类图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/class-diagram/抽象工厂模式类图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhaowy/class-diagram/简单工厂模式类图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/IVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/IVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,44 +18,160 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AbstractFactoryTest.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JAVA/com.zhaowy.abstractfactory.CourseFactory" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.zhaowy.abstractfactory.CourseFactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.zhaowy.abstractfactory.CourseFactory</OriginalElement>
+              <nodes>
+                <node x="511.0035714285714" y="281.0">com.zhaowy.abstractfactory.PythonCourseFactory</node>
+                <node x="177.57142857142856" y="134.0">com.zhaowy.abstractfactory.CourseFactory</node>
+                <node x="383.57142857142856" y="145.5">com.zhaowy.abstractfactory.JavaVideo</node>
+                <node x="59.00357142857132" y="281.0">com.zhaowy.abstractfactory.JavaCourseFactory</node>
+                <node x="10.5" y="145.5">com.zhaowy.abstractfactory.JavaNote</node>
+                <node x="119.0" y="0.0">com.zhaowy.abstractfactory.INote</node>
+                <node x="690.5714285714287" y="145.5">com.zhaowy.abstractfactory.PythonVideo</node>
+                <node x="398.00000000000006" y="0.0">com.zhaowy.abstractfactory.IVideo</node>
+                <node x="65.50357142857132" y="408.0">com.zhaowy.abstractfactory.AbstractFactoryTest</node>
+                <node x="545.5714285714286" y="145.5">com.zhaowy.abstractfactory.PythonNote</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.zhaowy.abstractfactory.PythonNote" target="com.zhaowy.abstractfactory.INote">
+                  <point x="0.0" y="-27.0" />
+                  <point x="608.0714285714286" y="94.0" />
+                  <point x="231.5" y="94.0" />
+                  <point x="50.0" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.PythonNote">
+                  <point x="0.0" y="-38.5" />
+                  <point x="604.0035714285714" y="261.0" />
+                  <point x="608.0714285714286" y="261.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.IVideo">
+                  <point x="0.0" y="-38.5" />
+                  <point x="152.00357142857132" y="261.0" />
+                  <point x="146.0" y="261.0" />
+                  <point x="146.0" y="104.0" />
+                  <point x="412.20000000000005" y="104.0" />
+                  <point x="-56.80000000000001" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.JavaVideo" target="com.zhaowy.abstractfactory.IVideo">
+                  <point x="5.6843418860808015E-14" y="-27.0" />
+                  <point x="454.5714285714286" y="114.0" />
+                  <point x="469.00000000000006" y="114.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.JavaNote" target="com.zhaowy.abstractfactory.INote">
+                  <point x="0.0" y="-27.0" />
+                  <point x="73.0" y="94.0" />
+                  <point x="156.5" y="94.0" />
+                  <point x="-25.0" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.INote">
+                  <point x="-74.39999999999998" y="-38.5" />
+                  <point x="77.60357142857134" y="261.0" />
+                  <point x="0.0" y="261.0" />
+                  <point x="0.0" y="84.0" />
+                  <point x="131.5" y="84.0" />
+                  <point x="-50.0" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.PythonVideo" target="com.zhaowy.abstractfactory.IVideo">
+                  <point x="0.0" y="-27.0" />
+                  <point x="761.5714285714287" y="84.0" />
+                  <point x="497.40000000000003" y="84.0" />
+                  <point x="28.399999999999977" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.CourseFactory" target="com.zhaowy.abstractfactory.IVideo">
+                  <point x="46.5" y="-38.5" />
+                  <point x="317.07142857142856" y="114.0" />
+                  <point x="440.6000000000001" y="114.0" />
+                  <point x="-28.399999999999977" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.IVideo">
+                  <point x="74.39999999999998" y="-38.5" />
+                  <point x="678.4035714285714" y="261.0" />
+                  <point x="843.0714285714287" y="261.0" />
+                  <point x="843.0714285714287" y="74.0" />
+                  <point x="525.8" y="74.0" />
+                  <point x="56.799999999999955" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.PythonVideo">
+                  <point x="37.200000000000045" y="-38.5" />
+                  <point x="641.2035714285714" y="251.0" />
+                  <point x="761.5714285714287" y="251.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.AbstractFactoryTest" target="com.zhaowy.abstractfactory.JavaCourseFactory">
+                  <point x="43.25" y="-27.0" />
+                  <point x="195.25357142857132" y="383.0" />
+                  <point x="198.50357142857132" y="383.0" />
+                  <point x="46.5" y="38.5" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.CourseFactory">
+                  <point x="-37.200000000000045" y="-38.5" />
+                  <point x="566.8035714285713" y="231.0" />
+                  <point x="317.07142857142856" y="231.0" />
+                  <point x="46.5" y="38.5" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.INote">
+                  <point x="-74.39999999999998" y="-38.5" />
+                  <point x="529.6035714285714" y="241.0" />
+                  <point x="167.07142857142856" y="241.0" />
+                  <point x="167.07142857142856" y="94.0" />
+                  <point x="181.5" y="94.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.CourseFactory">
+                  <point x="37.19999999999999" y="-38.5" />
+                  <point x="189.2035714285713" y="251.0" />
+                  <point x="224.07142857142856" y="251.0" />
+                  <point x="-46.5" y="38.5" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.JavaVideo">
+                  <point x="74.40000000000003" y="-38.5" />
+                  <point x="226.40357142857135" y="261.0" />
+                  <point x="454.57142857142856" y="261.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.CourseFactory" target="com.zhaowy.abstractfactory.INote">
+                  <point x="-46.5" y="-38.5" />
+                  <point x="224.07142857142856" y="94.0" />
+                  <point x="206.5" y="94.0" />
+                  <point x="25.0" y="27.0" />
+                </edge>
+                <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.JavaNote">
+                  <point x="-37.19999999999999" y="-38.5" />
+                  <point x="114.80357142857133" y="251.0" />
+                  <point x="73.0" y="251.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-108.0" y="280.0" />
+              <SelectedNodes>
+                <node>com.zhaowy.abstractfactory.CourseFactory</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractFactoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/AbstractFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICourseFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/ICourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaCourseFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/JavaCourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactoryMethodTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/FactoryMethodTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -89,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/ICourse.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/IVideo.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/JavaCourse.java" />
@@ -98,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/com/zhaowy/factorymethod/JavaCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/factorymethod/FactoryMethodTest.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/factorymethod/ICourseFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaNote.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/INote.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaCourseFactory.java" />
@@ -108,6 +208,8 @@
         <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaVideo.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/com/zhaowy/abstractfactory/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java" />
+        <option value="$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java" />
       </list>
     </option>
   </component>
@@ -134,7 +236,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-105" />
     <option name="y" value="14" />
     <option name="width" value="1386" />
@@ -172,7 +274,7 @@
               <item name="pattern-factory-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zhaowy" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
+              <item name="class-diagram" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pattern-factory-learn" type="b2602c69:ProjectViewProjectNode" />
@@ -270,42 +372,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552212255693</updated>
-      <workItem from="1552212258940" duration="5486000" />
+      <workItem from="1552212258940" duration="6160000" />
+      <workItem from="1552292405702" duration="4363000" />
     </task>
+    <task id="LOCAL-00001" summary="第三次提交">
+      <created>1552218422611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552218422612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5486000" />
+    <option name="totallyTimeSpent" value="10523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.11413969" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -316,11 +426,25 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第三次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第三次提交" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/simplefactory/SimpleFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/simplefactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -338,39 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/JavaCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaNote.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -395,55 +490,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonCourseFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/ICourseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="108">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/CourseFactory.java">
+    <entry file="file://$PROJECT_DIR$/pattern-factory-learn.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/INote.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/PythonCourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/simplefactory/CourseFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/JavaCourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="108">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhaowy/simplefactory/SimpleFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="329">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/AbstractFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+    <entry file="uml://JAVA/com.zhaowy.simplefactory.SimpleFactoryTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.zhaowy.simplefactory.SimpleFactoryTest</OriginalElement>
+          <nodes>
+            <node x="" y="">com.zhaowy.simplefactory.CourseFactory</node>
+            <node x="" y="">com.zhaowy.ICourse</node>
+            <node x="" y="">com.zhaowy.PythonCourse</node>
+            <node x="" y="">com.zhaowy.simplefactory.SimpleFactoryTest</node>
+            <node x="" y="">com.zhaowy.JavaCourse</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1" x="155.5" y="178.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/ICourseFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/simplefactory/CourseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/factorymethod/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -463,6 +590,358 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.zhaowy.factorymethod.PythonCourseFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.zhaowy.factorymethod.PythonCourseFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">com.zhaowy.factorymethod.PythonCourseFactory</node>
+            <node x="" y="">com.zhaowy.factorymethod.ICourseFactory</node>
+            <node x="" y="">com.zhaowy.factorymethod.FactoryMethodTest</node>
+            <node x="" y="">com.zhaowy.factorymethod.JavaCourseFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="79.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/INote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.zhaowy.abstractfactory.INote">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.zhaowy.abstractfactory.INote</OriginalElement>
+          <nodes>
+            <node x="511.0035714285714" y="281.0">com.zhaowy.abstractfactory.PythonCourseFactory</node>
+            <node x="177.57142857142853" y="134.0">com.zhaowy.abstractfactory.CourseFactory</node>
+            <node x="383.57142857142856" y="145.5">com.zhaowy.abstractfactory.JavaVideo</node>
+            <node x="59.00357142857132" y="281.0">com.zhaowy.abstractfactory.JavaCourseFactory</node>
+            <node x="10.5" y="145.5">com.zhaowy.abstractfactory.JavaNote</node>
+            <node x="119.0" y="0.0">com.zhaowy.abstractfactory.INote</node>
+            <node x="690.5714285714286" y="145.5">com.zhaowy.abstractfactory.PythonVideo</node>
+            <node x="398.0" y="0.0">com.zhaowy.abstractfactory.IVideo</node>
+            <node x="65.50357142857132" y="408.0">com.zhaowy.abstractfactory.AbstractFactoryTest</node>
+            <node x="545.5714285714286" y="145.5">com.zhaowy.abstractfactory.PythonNote</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.zhaowy.abstractfactory.PythonNote" target="com.zhaowy.abstractfactory.INote">
+              <point x="0.0" y="-27.0" />
+              <point x="608.0714285714286" y="94.0" />
+              <point x="231.5" y="94.0" />
+              <point x="50.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.PythonNote">
+              <point x="0.0" y="-38.5" />
+              <point x="604.0035714285714" y="261.0" />
+              <point x="608.0714285714286" y="261.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="0.0" y="-38.5" />
+              <point x="152.00357142857132" y="261.0" />
+              <point x="146.0" y="261.0" />
+              <point x="146.0" y="104.0" />
+              <point x="412.2" y="104.0" />
+              <point x="-56.80000000000001" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaVideo" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="0.0" y="-27.0" />
+              <point x="454.57142857142856" y="114.0" />
+              <point x="469.0" y="114.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaNote" target="com.zhaowy.abstractfactory.INote">
+              <point x="0.0" y="-27.0" />
+              <point x="73.0" y="94.0" />
+              <point x="156.5" y="94.0" />
+              <point x="-25.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.INote">
+              <point x="-74.39999999999998" y="-38.5" />
+              <point x="77.60357142857134" y="261.0" />
+              <point x="0.0" y="261.0" />
+              <point x="0.0" y="84.0" />
+              <point x="131.5" y="84.0" />
+              <point x="-50.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonVideo" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="0.0" y="-27.0" />
+              <point x="761.5714285714286" y="84.0" />
+              <point x="497.40000000000003" y="84.0" />
+              <point x="28.400000000000034" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.CourseFactory" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="46.5" y="-38.5" />
+              <point x="317.07142857142856" y="114.0" />
+              <point x="440.6" y="114.0" />
+              <point x="-28.399999999999977" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="74.39999999999995" y="-38.5" />
+              <point x="678.4035714285712" y="261.0" />
+              <point x="843.0714285714286" y="261.0" />
+              <point x="843.0714285714286" y="74.0" />
+              <point x="525.8" y="74.0" />
+              <point x="56.80000000000001" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.PythonVideo">
+              <point x="37.200000000000045" y="-38.5" />
+              <point x="641.2035714285714" y="251.0" />
+              <point x="761.5714285714286" y="251.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.AbstractFactoryTest" target="com.zhaowy.abstractfactory.JavaCourseFactory">
+              <point x="43.25" y="-27.0" />
+              <point x="195.25357142857132" y="383.0" />
+              <point x="198.50357142857132" y="383.0" />
+              <point x="46.5" y="38.5" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.CourseFactory">
+              <point x="-37.200000000000045" y="-38.5" />
+              <point x="566.8035714285713" y="231.0" />
+              <point x="317.07142857142856" y="231.0" />
+              <point x="46.5" y="38.5" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.INote">
+              <point x="-74.39999999999998" y="-38.5" />
+              <point x="529.6035714285714" y="241.0" />
+              <point x="167.07142857142853" y="241.0" />
+              <point x="167.07142857142853" y="94.0" />
+              <point x="181.5" y="94.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.CourseFactory">
+              <point x="37.19999999999999" y="-38.5" />
+              <point x="189.2035714285713" y="251.0" />
+              <point x="224.07142857142853" y="251.0" />
+              <point x="-46.5" y="38.5" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.JavaVideo">
+              <point x="74.40000000000003" y="-38.5" />
+              <point x="226.40357142857135" y="261.0" />
+              <point x="454.57142857142856" y="261.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.CourseFactory" target="com.zhaowy.abstractfactory.INote">
+              <point x="-46.5" y="-38.5" />
+              <point x="224.07142857142853" y="94.0" />
+              <point x="206.5" y="94.0" />
+              <point x="25.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.JavaNote">
+              <point x="-37.19999999999999" y="-38.5" />
+              <point x="114.80357142857133" y="251.0" />
+              <point x="73.0" y="251.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="163.0" y="220.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.zhaowy.abstractfactory.CourseFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.zhaowy.abstractfactory.CourseFactory</OriginalElement>
+          <nodes>
+            <node x="511.0035714285714" y="281.0">com.zhaowy.abstractfactory.PythonCourseFactory</node>
+            <node x="177.57142857142856" y="134.0">com.zhaowy.abstractfactory.CourseFactory</node>
+            <node x="383.57142857142856" y="145.5">com.zhaowy.abstractfactory.JavaVideo</node>
+            <node x="59.00357142857132" y="281.0">com.zhaowy.abstractfactory.JavaCourseFactory</node>
+            <node x="10.5" y="145.5">com.zhaowy.abstractfactory.JavaNote</node>
+            <node x="119.0" y="0.0">com.zhaowy.abstractfactory.INote</node>
+            <node x="690.5714285714287" y="145.5">com.zhaowy.abstractfactory.PythonVideo</node>
+            <node x="398.00000000000006" y="0.0">com.zhaowy.abstractfactory.IVideo</node>
+            <node x="65.50357142857132" y="408.0">com.zhaowy.abstractfactory.AbstractFactoryTest</node>
+            <node x="545.5714285714286" y="145.5">com.zhaowy.abstractfactory.PythonNote</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.zhaowy.abstractfactory.PythonNote" target="com.zhaowy.abstractfactory.INote">
+              <point x="0.0" y="-27.0" />
+              <point x="608.0714285714286" y="94.0" />
+              <point x="231.5" y="94.0" />
+              <point x="50.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.PythonNote">
+              <point x="0.0" y="-38.5" />
+              <point x="604.0035714285714" y="261.0" />
+              <point x="608.0714285714286" y="261.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="0.0" y="-38.5" />
+              <point x="152.00357142857132" y="261.0" />
+              <point x="146.0" y="261.0" />
+              <point x="146.0" y="104.0" />
+              <point x="412.20000000000005" y="104.0" />
+              <point x="-56.80000000000001" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaVideo" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="5.6843418860808015E-14" y="-27.0" />
+              <point x="454.5714285714286" y="114.0" />
+              <point x="469.00000000000006" y="114.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaNote" target="com.zhaowy.abstractfactory.INote">
+              <point x="0.0" y="-27.0" />
+              <point x="73.0" y="94.0" />
+              <point x="156.5" y="94.0" />
+              <point x="-25.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.INote">
+              <point x="-74.39999999999998" y="-38.5" />
+              <point x="77.60357142857134" y="261.0" />
+              <point x="0.0" y="261.0" />
+              <point x="0.0" y="84.0" />
+              <point x="131.5" y="84.0" />
+              <point x="-50.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonVideo" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="0.0" y="-27.0" />
+              <point x="761.5714285714287" y="84.0" />
+              <point x="497.40000000000003" y="84.0" />
+              <point x="28.399999999999977" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.CourseFactory" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="46.5" y="-38.5" />
+              <point x="317.07142857142856" y="114.0" />
+              <point x="440.6000000000001" y="114.0" />
+              <point x="-28.399999999999977" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.IVideo">
+              <point x="74.39999999999998" y="-38.5" />
+              <point x="678.4035714285714" y="261.0" />
+              <point x="843.0714285714287" y="261.0" />
+              <point x="843.0714285714287" y="74.0" />
+              <point x="525.8" y="74.0" />
+              <point x="56.799999999999955" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.PythonVideo">
+              <point x="37.200000000000045" y="-38.5" />
+              <point x="641.2035714285714" y="251.0" />
+              <point x="761.5714285714287" y="251.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.AbstractFactoryTest" target="com.zhaowy.abstractfactory.JavaCourseFactory">
+              <point x="43.25" y="-27.0" />
+              <point x="195.25357142857132" y="383.0" />
+              <point x="198.50357142857132" y="383.0" />
+              <point x="46.5" y="38.5" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.CourseFactory">
+              <point x="-37.200000000000045" y="-38.5" />
+              <point x="566.8035714285713" y="231.0" />
+              <point x="317.07142857142856" y="231.0" />
+              <point x="46.5" y="38.5" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.PythonCourseFactory" target="com.zhaowy.abstractfactory.INote">
+              <point x="-74.39999999999998" y="-38.5" />
+              <point x="529.6035714285714" y="241.0" />
+              <point x="167.07142857142856" y="241.0" />
+              <point x="167.07142857142856" y="94.0" />
+              <point x="181.5" y="94.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.CourseFactory">
+              <point x="37.19999999999999" y="-38.5" />
+              <point x="189.2035714285713" y="251.0" />
+              <point x="224.07142857142856" y="251.0" />
+              <point x="-46.5" y="38.5" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.JavaVideo">
+              <point x="74.40000000000003" y="-38.5" />
+              <point x="226.40357142857135" y="261.0" />
+              <point x="454.57142857142856" y="261.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.CourseFactory" target="com.zhaowy.abstractfactory.INote">
+              <point x="-46.5" y="-38.5" />
+              <point x="224.07142857142856" y="94.0" />
+              <point x="206.5" y="94.0" />
+              <point x="25.0" y="27.0" />
+            </edge>
+            <edge source="com.zhaowy.abstractfactory.JavaCourseFactory" target="com.zhaowy.abstractfactory.JavaNote">
+              <point x="-37.19999999999999" y="-38.5" />
+              <point x="114.80357142857133" y="251.0" />
+              <point x="73.0" y="251.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-108.0" y="280.0" />
+          <SelectedNodes>
+            <node>com.zhaowy.abstractfactory.CourseFactory</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhaowy/abstractfactory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
